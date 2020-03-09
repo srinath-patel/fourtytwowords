@@ -1,0 +1,21 @@
+{
+  "name": "WordGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "dict": "./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "figures": "^3.2.0",
+    "inquirer": "^7.0.6"
+  }
+}
